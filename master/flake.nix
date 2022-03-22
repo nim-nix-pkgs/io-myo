@@ -9,8 +9,8 @@
   
   inputs.src-io-myo-master.flake = false;
   inputs.src-io-myo-master.owner = "nimious";
-  inputs.src-io-myo-master.ref   = "refs/heads/master";
-  inputs.src-io-myo-master.repo  = "io-myo";
+  inputs.src-io-myo-master.ref   = "master";
+  inputs.src-io-myo-master.repo  = "io-myo.git";
   inputs.src-io-myo-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
