@@ -11,7 +11,6 @@
   inputs.src-myo-master.ref   = "refs/heads/master";
   inputs.src-myo-master.owner = "nimious";
   inputs.src-myo-master.repo  = "io-myo";
-  inputs.src-myo-master.dir   = "";
   inputs.src-myo-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
